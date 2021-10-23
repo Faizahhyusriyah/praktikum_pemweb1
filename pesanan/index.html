@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br><br><br><br><br><br>
+    <form method="post">
+        <table width="100%" style="border: azure;" >
+            <tr>
+                <td rowspan="3"> <img src="images8.jpeg" width="200" alt="box"></td>
+                <td>Tittle Here</td>
+                <td>:</td>
+                <td><input type="text" name="Title here" id="form-name" size="38"></td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td>:</td>
+                <td> <textarea name="Description" id="form-story" cols="38" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Account Number</td>
+                <td>:</td>
+                <td> <input type="text" name="Account Number" id="form-tel" size="38"></td>
+            </tr>
+            <tr>
+                <td><button type="button">Upload Image</button></td>
+                <td>Bank</td>
+                <td>:</td>
+                <td>
+                    <select name="Bank" id="select">
+                        <option value="BNI">BNI</option>
+                        <option value="BRI">BRI</option>
+                        <option value="MANDIRI">MANDIRI</option>
+                        <option value="HBSC">HBSC</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Account Holder</td>
+                <td>:</td>
+                <td><input type="text" name="Account Holder" id="form-name" size="38"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Transaction</td>
+                <td>:</td>
+                <td style="font-size: small;"><input type="number" name="Transaction" id="number" min="1" ><br>If the transaction is for 3 person, choose 3 from the drop-down list</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="font-size: small;">
+                <input type="checkbox">Send Mobile Phone
+                <br>
+                <input type="checkbox">Send to Email
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Mobile Phone</td>
+                <td>:</td>
+                <td><input type="tel" name="Mobile Phone" id="form-tel" size="38"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Email</td>
+                <td>:</td>
+                <td><input type="email" name="email" id="form-email" size="38"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <input 
+                    type="submit" 
+                    name="submit" 
+                    id="submit"
+                    size="15"
+                    value="Generate Nobr Link"
+                    style="background-color: green; color: white;">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
